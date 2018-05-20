@@ -6,12 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Lesson5.fs" />
+    <Compile Include="Test.fs" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="FsCheck" Version="2.10.8" />
+    <PackageReference Include="FsCheck" Version="2.10.10" />
     <PackageReference Include="FsUnit" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lesson5.fsproj" />
   </ItemGroup>
 
 </Project>
